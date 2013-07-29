@@ -117,7 +117,7 @@
 
 // PID settings:
 // Comment the following line to disable PID and enable bang-bang.
-//#define PIDTEMP
+#define PIDTEMP
 #define BANG_MAX 256 // limits current to nozzle while in bang-bang mode; 256=full current
 #define PID_MAX 256 // limits current to nozzle while PID is active (see PID_FUNCTIONAL_RANGE below); 256=full current
 #ifdef PIDTEMP
@@ -131,9 +131,9 @@
 
 // If you are using a preconfigured hotend then you can use one of the value sets by uncommenting it
 // Ultimaker
-    #define  DEFAULT_Kp 27.76
-    #define  DEFAULT_Ki 2.18
-    #define  DEFAULT_Kd 88.22  
+    #define  DEFAULT_Kp 28.99
+    #define  DEFAULT_Ki 2.28
+    #define  DEFAULT_Kd 92.14  
 
 // Makergear
 //    #define  DEFAULT_Kp 7.0
