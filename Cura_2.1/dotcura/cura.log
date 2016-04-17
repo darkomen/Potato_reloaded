@@ -1,0 +1,614 @@
+2016-04-17 16:47:19,548 - INFO - Loaded plugin FileLogger
+2016-04-17 16:47:19,555 - INFO - Loaded plugin LocalFileOutputDevice
+2016-04-17 16:47:19,562 - INFO - Loaded plugin CameraTool
+2016-04-17 16:47:19,571 - INFO - Loaded plugin MirrorTool
+2016-04-17 16:47:19,583 - INFO - Loaded plugin RotateTool
+2016-04-17 16:47:19,595 - INFO - Loaded plugin ScaleTool
+2016-04-17 16:47:19,600 - INFO - Loaded plugin SelectionTool
+2016-04-17 16:47:19,608 - INFO - Loaded plugin TranslateTool
+2016-04-17 16:47:19,680 - INFO - Checking for new version of cura
+2016-04-17 16:47:19,680 - INFO - Loaded plugin UpdateChecker
+2016-04-17 16:47:19,698 - INFO - Loaded plugin SimpleView
+2016-04-17 16:47:19,703 - INFO - Loaded plugin WireframeView
+2016-04-17 16:47:19,713 - INFO - Loaded plugin 3MFReader
+2016-04-17 16:47:19,720 - INFO - Loaded plugin AutoSave
+2016-04-17 16:47:19,727 - ERROR - Error loading plugin ChangeLogPlugin:
+2016-04-17 16:47:19,727 - ERROR - invalid literal for int() with base 10: '0-'
+2016-04-17 16:47:19,743 - INFO - Loaded plugin CuraEngineBackend
+2016-04-17 16:47:19,748 - INFO - Loaded plugin CuraProfileReader
+2016-04-17 16:47:19,754 - INFO - Loaded plugin CuraProfileWriter
+2016-04-17 16:47:19,772 - ERROR - Exception starting plugin Doodle3D: NotImplementedError('Start should be implemented by subclasses',)
+2016-04-17 16:47:19,773 - INFO - Loaded plugin Doodle3D
+2016-04-17 16:47:19,780 - INFO - Loaded plugin GCodeProfileReader
+2016-04-17 16:47:19,786 - INFO - Loaded plugin GCodeWriter
+2016-04-17 16:47:19,797 - INFO - Loaded plugin ImageReader
+2016-04-17 16:47:19,807 - WARNING - Could not determine application version from string 2.1.0-, not checking for updates
+2016-04-17 16:47:19,811 - INFO - Loaded plugin LayerView
+2016-04-17 16:47:19,818 - INFO - Loaded plugin LegacyProfileReader
+2016-04-17 16:47:19,828 - INFO - Loaded plugin PerObjectSettingsTool
+2016-04-17 16:47:19,841 - INFO - Loaded plugin PostProcessingPlugin
+2016-04-17 16:47:19,861 - INFO - Loaded plugin RemovableDriveOutputDevice
+2016-04-17 16:47:19,872 - INFO - Loaded plugin SliceInfoPlugin
+2016-04-17 16:47:19,881 - INFO - Loaded plugin SolidView
+2016-04-17 16:47:19,924 - INFO - Loaded plugin USBPrinting
+2016-04-17 16:47:19,939 - INFO - Loaded plugin XRayView
+2016-04-17 16:47:19,940 - INFO - Command line arguments: {'disable-textures': False, 'external-backend': False, 'debug-mode': False, 'file': []}
+2016-04-17 16:47:20,053 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:47:20,062 - DEBUG - Backend connected on port 49674
+2016-04-17 16:47:20,062 - DEBUG - Setting active view to SolidView
+2016-04-17 16:47:20,709 - DEBUG - Loaded theme /Applications/Cura.app/Contents/Resources/cura/resources/themes/cura
+2016-04-17 16:47:22,046 - DEBUG - Initialized OpenGL subsystems.
+2016-04-17 16:47:22,046 - DEBUG - OpenGL Version:  2.1 INTEL-10.14.58
+2016-04-17 16:47:22,046 - DEBUG - OpenGL Vendor:   Intel Inc.
+2016-04-17 16:47:22,047 - DEBUG - OpenGL Renderer: Intel HD Graphics 5000 OpenGL Engine
+2016-04-17 16:47:31,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:47:31,712 - WARNING - No active machine found when trying to save setting visibility
+2016-04-17 16:47:44,249 - WARNING - No active machine found when trying to save setting visibility
+2016-04-17 16:47:44,272 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:47:44,272 - DEBUG - Killing engine process
+2016-04-17 16:47:44,273 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:47:45,055 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:47:45,166 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:47:45,168 - DEBUG - Calculating normals took 0.004251003265380859 seconds
+2016-04-17 16:47:45,168 - DEBUG - Loaded a mesh with 13248 vertices
+2016-04-17 16:47:45,188 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:47:45,249 - DEBUG - Backend connected on port 49674
+2016-04-17 16:48:02,715 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:48:04,243 - DEBUG - Calculating normals took 0.0016031265258789062 seconds
+2016-04-17 16:48:04,244 - DEBUG - Loaded a mesh with 6702 vertices
+2016-04-17 16:48:04,251 - DEBUG - Loading mesh took 0.14379000663757324 seconds
+2016-04-17 16:48:04,995 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:48:04,995 - DEBUG - Killing engine process
+2016-04-17 16:48:04,996 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:48:05,776 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:48:05,884 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:48:05,895 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:48:05,909 - DEBUG - Backend connected on port 49674
+2016-04-17 16:48:06,412 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:48:06,412 - DEBUG - Sending data to engine is completed
+2016-04-17 16:48:09,570 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:48:09,583 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:48:09,597 - DEBUG - Backend connected on port 49674
+2016-04-17 16:48:11,151 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:48:11,151 - DEBUG - Killing engine process
+2016-04-17 16:48:11,152 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:48:11,693 - WARNING - Arcus Error (5, native 32): Could not send message header
+2016-04-17 16:48:11,694 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:48:11,694 - DEBUG - Sending data to engine is completed
+2016-04-17 16:48:11,741 - DEBUG - Calculating normals took 0.0006539821624755859 seconds
+2016-04-17 16:48:11,741 - DEBUG - Loaded a mesh with 13248 vertices
+2016-04-17 16:48:11,799 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:48:11,799 - ERROR - A socket error caused the connection to be reset
+2016-04-17 16:48:11,811 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:48:11,835 - DEBUG - Backend connected on port 49674
+2016-04-17 16:48:12,346 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:48:12,346 - DEBUG - Sending data to engine is completed
+2016-04-17 16:48:15,394 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:48:15,406 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:48:15,421 - DEBUG - Backend connected on port 49674
+2016-04-17 16:48:17,718 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:48:29,406 - DEBUG - Shutting down cura
+2016-04-17 16:48:30,094 - ERROR - Exception while emitting shutdown signal: NotImplementedError('Stop should be implemented by subclasses',)
+2016-04-17 16:48:34,086 - INFO - Loaded plugin FileLogger
+2016-04-17 16:48:34,092 - INFO - Loaded plugin LocalFileOutputDevice
+2016-04-17 16:48:34,099 - INFO - Loaded plugin CameraTool
+2016-04-17 16:48:34,107 - INFO - Loaded plugin MirrorTool
+2016-04-17 16:48:34,120 - INFO - Loaded plugin RotateTool
+2016-04-17 16:48:34,136 - INFO - Loaded plugin ScaleTool
+2016-04-17 16:48:34,142 - INFO - Loaded plugin SelectionTool
+2016-04-17 16:48:34,150 - INFO - Loaded plugin TranslateTool
+2016-04-17 16:48:34,202 - INFO - Checking for new version of cura
+2016-04-17 16:48:34,203 - INFO - Loaded plugin UpdateChecker
+2016-04-17 16:48:34,218 - INFO - Loaded plugin SimpleView
+2016-04-17 16:48:34,224 - INFO - Loaded plugin WireframeView
+2016-04-17 16:48:34,232 - INFO - Loaded plugin 3MFReader
+2016-04-17 16:48:34,237 - INFO - Loaded plugin AutoSave
+2016-04-17 16:48:34,245 - ERROR - Error loading plugin ChangeLogPlugin:
+2016-04-17 16:48:34,245 - ERROR - invalid literal for int() with base 10: '0-'
+2016-04-17 16:48:34,272 - INFO - Loaded plugin CuraEngineBackend
+2016-04-17 16:48:34,279 - INFO - Loaded plugin CuraProfileReader
+2016-04-17 16:48:34,285 - INFO - Loaded plugin CuraProfileWriter
+2016-04-17 16:48:34,304 - ERROR - Exception starting plugin Doodle3D: NotImplementedError('Start should be implemented by subclasses',)
+2016-04-17 16:48:34,304 - INFO - Loaded plugin Doodle3D
+2016-04-17 16:48:34,312 - INFO - Loaded plugin GCodeProfileReader
+2016-04-17 16:48:34,319 - INFO - Loaded plugin GCodeWriter
+2016-04-17 16:48:34,332 - INFO - Loaded plugin ImageReader
+2016-04-17 16:48:34,343 - INFO - Loaded plugin LayerView
+2016-04-17 16:48:34,352 - INFO - Loaded plugin LegacyProfileReader
+2016-04-17 16:48:34,364 - INFO - Loaded plugin PerObjectSettingsTool
+2016-04-17 16:48:34,380 - INFO - Loaded plugin PostProcessingPlugin
+2016-04-17 16:48:34,401 - INFO - Loaded plugin RemovableDriveOutputDevice
+2016-04-17 16:48:34,414 - INFO - Loaded plugin SliceInfoPlugin
+2016-04-17 16:48:34,424 - INFO - Loaded plugin SolidView
+2016-04-17 16:48:34,462 - WARNING - Could not determine application version from string 2.1.0-, not checking for updates
+2016-04-17 16:48:34,471 - INFO - Loaded plugin USBPrinting
+2016-04-17 16:48:34,485 - INFO - Loaded plugin XRayView
+2016-04-17 16:48:34,486 - INFO - Command line arguments: {'external-backend': False, 'file': [], 'disable-textures': False, 'debug-mode': False}
+2016-04-17 16:48:34,642 - WARNING - No active machine found when trying to save setting visibility
+2016-04-17 16:48:34,643 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:48:34,865 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:48:34,882 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:48:34,883 - DEBUG - Setting active view to SolidView
+2016-04-17 16:48:34,909 - DEBUG - Backend connected on port 49675
+2016-04-17 16:48:35,055 - DEBUG - Calculating normals took 0.0006091594696044922 seconds
+2016-04-17 16:48:35,055 - DEBUG - Loaded a mesh with 13248 vertices
+2016-04-17 16:48:35,527 - DEBUG - Loaded theme /Applications/Cura.app/Contents/Resources/cura/resources/themes/cura
+2016-04-17 16:48:37,047 - DEBUG - Initialized OpenGL subsystems.
+2016-04-17 16:48:37,047 - DEBUG - OpenGL Version:  2.1 INTEL-10.14.58
+2016-04-17 16:48:37,047 - DEBUG - OpenGL Vendor:   Intel Inc.
+2016-04-17 16:48:37,048 - DEBUG - OpenGL Renderer: Intel HD Graphics 5000 OpenGL Engine
+2016-04-17 16:48:46,712 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:49:24,282 - DEBUG - Setting value of layer_height to 0 on profile Current settings
+2016-04-17 16:49:24,296 - ERROR - An error occurred in inherit function for bottom_layers: float division by zero
+2016-04-17 16:49:24,300 - ERROR - An error occurred in inherit function for cool_fan_full_layer: float division by zero
+2016-04-17 16:49:24,305 - ERROR - An error occurred in inherit function for top_layers: float division by zero
+2016-04-17 16:49:24,366 - ERROR - An error occurred in inherit function for top_layers: float division by zero
+2016-04-17 16:49:24,367 - ERROR - An error occurred in inherit function for bottom_layers: float division by zero
+2016-04-17 16:49:24,370 - ERROR - An error occurred in inherit function for cool_fan_full_layer: float division by zero
+2016-04-17 16:49:24,783 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:24,783 - DEBUG - Killing engine process
+2016-04-17 16:49:24,784 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:49:25,331 - DEBUG - Setting value of layer_height to 0.2 on profile Current settings
+2016-04-17 16:49:25,350 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:49:25,454 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:25,481 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:49:25,484 - DEBUG - Setting value of layer_height to 0.25 on profile Current settings
+2016-04-17 16:49:25,505 - DEBUG - Backend connected on port 49675
+2016-04-17 16:49:29,686 - DEBUG - Setting value of infill_sparse_density to 1 on profile Current settings
+2016-04-17 16:49:29,966 - DEBUG - Setting value of infill_sparse_density to 15 on profile Current settings
+2016-04-17 16:49:30,516 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:30,516 - DEBUG - Killing engine process
+2016-04-17 16:49:30,517 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:49:31,259 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:49:31,364 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:31,376 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:49:31,382 - DEBUG - Backend connected on port 49675
+2016-04-17 16:49:33,853 - DEBUG - Setting value of material_print_temperature to 220 on profile Current settings
+2016-04-17 16:49:34,331 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:34,331 - DEBUG - Killing engine process
+2016-04-17 16:49:34,332 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:49:35,146 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:49:35,250 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:35,262 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:49:35,268 - DEBUG - Backend connected on port 49675
+2016-04-17 16:49:36,901 - DEBUG - Setting value of material_flow to 100 on profile Current settings
+2016-04-17 16:49:37,380 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:37,380 - DEBUG - Killing engine process
+2016-04-17 16:49:37,381 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:49:38,049 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:49:38,154 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:38,166 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:49:38,173 - DEBUG - Backend connected on port 49675
+2016-04-17 16:49:46,130 - DEBUG - Setting value of speed_infill to 3 on profile Current settings
+2016-04-17 16:49:46,536 - DEBUG - Setting value of speed_infill to 30 on profile Current settings
+2016-04-17 16:49:47,064 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:47,065 - DEBUG - Killing engine process
+2016-04-17 16:49:47,066 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:49:47,966 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:49:48,071 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:48,084 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:49:48,089 - DEBUG - Backend connected on port 49675
+2016-04-17 16:49:49,849 - DEBUG - Setting value of speed_topbottom to 3 on profile Current settings
+2016-04-17 16:49:50,330 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:50,330 - DEBUG - Killing engine process
+2016-04-17 16:49:50,331 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:49:50,599 - DEBUG - Setting value of speed_topbottom to 30 on profile Current settings
+2016-04-17 16:49:50,853 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:49:50,958 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:49:50,971 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:49:50,980 - DEBUG - Backend connected on port 49675
+2016-04-17 16:49:59,658 - DEBUG - Setting value of support_enable to False on profile Current settings
+2016-04-17 16:50:00,333 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:50:00,334 - DEBUG - Killing engine process
+2016-04-17 16:50:00,334 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:50:01,018 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:50:01,121 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:50:01,133 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:50:01,139 - DEBUG - Backend connected on port 49675
+2016-04-17 16:50:22,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:51:47,687 - DEBUG - Shutting down cura
+2016-04-17 16:51:47,692 - ERROR - Exception while emitting shutdown signal: NotImplementedError('Stop should be implemented by subclasses',)
+2016-04-17 16:51:50,595 - INFO - Loaded plugin FileLogger
+2016-04-17 16:51:50,602 - INFO - Loaded plugin LocalFileOutputDevice
+2016-04-17 16:51:50,610 - INFO - Loaded plugin CameraTool
+2016-04-17 16:51:50,617 - INFO - Loaded plugin MirrorTool
+2016-04-17 16:51:50,631 - INFO - Loaded plugin RotateTool
+2016-04-17 16:51:50,642 - INFO - Loaded plugin ScaleTool
+2016-04-17 16:51:50,648 - INFO - Loaded plugin SelectionTool
+2016-04-17 16:51:50,655 - INFO - Loaded plugin TranslateTool
+2016-04-17 16:51:50,711 - INFO - Checking for new version of cura
+2016-04-17 16:51:50,714 - INFO - Loaded plugin UpdateChecker
+2016-04-17 16:51:50,724 - INFO - Loaded plugin SimpleView
+2016-04-17 16:51:50,729 - INFO - Loaded plugin WireframeView
+2016-04-17 16:51:50,737 - INFO - Loaded plugin 3MFReader
+2016-04-17 16:51:50,743 - INFO - Loaded plugin AutoSave
+2016-04-17 16:51:50,750 - ERROR - Error loading plugin ChangeLogPlugin:
+2016-04-17 16:51:50,750 - ERROR - invalid literal for int() with base 10: '0-'
+2016-04-17 16:51:50,772 - INFO - Loaded plugin CuraEngineBackend
+2016-04-17 16:51:50,777 - INFO - Loaded plugin CuraProfileReader
+2016-04-17 16:51:50,782 - INFO - Loaded plugin CuraProfileWriter
+2016-04-17 16:51:50,797 - ERROR - Exception starting plugin Doodle3D: NotImplementedError('Start should be implemented by subclasses',)
+2016-04-17 16:51:50,797 - INFO - Loaded plugin Doodle3D
+2016-04-17 16:51:50,803 - INFO - Loaded plugin GCodeProfileReader
+2016-04-17 16:51:50,809 - INFO - Loaded plugin GCodeWriter
+2016-04-17 16:51:50,820 - INFO - Loaded plugin ImageReader
+2016-04-17 16:51:50,830 - INFO - Loaded plugin LayerView
+2016-04-17 16:51:50,837 - INFO - Loaded plugin LegacyProfileReader
+2016-04-17 16:51:50,848 - INFO - Loaded plugin PerObjectSettingsTool
+2016-04-17 16:51:50,863 - INFO - Loaded plugin PostProcessingPlugin
+2016-04-17 16:51:50,883 - INFO - Loaded plugin RemovableDriveOutputDevice
+2016-04-17 16:51:50,899 - INFO - Loaded plugin SliceInfoPlugin
+2016-04-17 16:51:50,911 - INFO - Loaded plugin SolidView
+2016-04-17 16:51:50,950 - INFO - Loaded plugin USBPrinting
+2016-04-17 16:51:50,965 - INFO - Loaded plugin XRayView
+2016-04-17 16:51:50,965 - INFO - Command line arguments: {'file': [], 'external-backend': False, 'disable-textures': False, 'debug-mode': False}
+2016-04-17 16:51:51,039 - WARNING - Could not determine application version from string 2.1.0-, not checking for updates
+2016-04-17 16:51:51,137 - WARNING - No active machine found when trying to save setting visibility
+2016-04-17 16:51:51,139 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:51:51,252 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:51:51,262 - DEBUG - Backend connected on port 49674
+2016-04-17 16:51:51,262 - DEBUG - Setting active view to SolidView
+2016-04-17 16:51:51,429 - DEBUG - Calculating normals took 0.0006098747253417969 seconds
+2016-04-17 16:51:51,429 - DEBUG - Loaded a mesh with 13248 vertices
+2016-04-17 16:51:51,881 - DEBUG - Loaded theme /Applications/Cura.app/Contents/Resources/cura/resources/themes/cura
+2016-04-17 16:51:53,402 - DEBUG - Initialized OpenGL subsystems.
+2016-04-17 16:51:53,402 - DEBUG - OpenGL Version:  2.1 INTEL-10.14.58
+2016-04-17 16:51:53,402 - DEBUG - OpenGL Vendor:   Intel Inc.
+2016-04-17 16:51:53,403 - DEBUG - OpenGL Renderer: Intel HD Graphics 5000 OpenGL Engine
+2016-04-17 16:52:03,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:52:06,175 - DEBUG - Setting value of line_width to 0.5 on profile Current settings
+2016-04-17 16:52:06,779 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:06,779 - DEBUG - Killing engine process
+2016-04-17 16:52:06,780 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:52:07,338 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:52:07,443 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:07,458 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:52:07,469 - DEBUG - Backend connected on port 49674
+2016-04-17 16:52:09,173 - DEBUG - Setting value of machine_nozzle_size to 0.5 on profile Current settings
+2016-04-17 16:52:09,710 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:09,710 - DEBUG - Killing engine process
+2016-04-17 16:52:09,711 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:52:10,228 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:52:10,332 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:10,353 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:52:10,360 - DEBUG - Backend connected on port 49674
+2016-04-17 16:52:19,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:52:37,758 - DEBUG - Setting value of top_bottom_pattern to zigzag on profile Current settings
+2016-04-17 16:52:38,245 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:38,246 - DEBUG - Killing engine process
+2016-04-17 16:52:38,247 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:52:39,987 - DEBUG - Setting value of top_bottom_pattern to lines on profile Current settings
+2016-04-17 16:52:39,996 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:52:40,099 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:40,130 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:52:40,137 - DEBUG - Backend connected on port 49674
+2016-04-17 16:52:49,125 - DEBUG - Setting value of infill_pattern to lines on profile Current settings
+2016-04-17 16:52:49,656 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:49,656 - DEBUG - Killing engine process
+2016-04-17 16:52:49,657 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:52:50,426 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:52:50,531 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:52:50,547 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:52:50,553 - DEBUG - Backend connected on port 49674
+2016-04-17 16:52:58,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:53:03,650 - DEBUG - Setting value of retraction_speed to 4 on profile Current settings
+2016-04-17 16:53:03,988 - DEBUG - Setting value of retraction_speed to 40 on profile Current settings
+2016-04-17 16:53:04,525 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:04,525 - DEBUG - Killing engine process
+2016-04-17 16:53:04,526 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:53:05,365 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:53:05,469 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:05,484 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:53:05,491 - DEBUG - Backend connected on port 49674
+2016-04-17 16:53:13,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:53:27,466 - DEBUG - Setting value of retraction_amount to 4 on profile Current settings
+2016-04-17 16:53:27,999 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:27,999 - DEBUG - Killing engine process
+2016-04-17 16:53:28,000 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:53:28,824 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:53:28,929 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:28,950 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:53:28,959 - DEBUG - Backend connected on port 49674
+2016-04-17 16:53:36,577 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:36,577 - DEBUG - Killing engine process
+2016-04-17 16:53:36,578 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:53:37,491 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:53:37,595 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:37,611 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:53:37,617 - DEBUG - Backend connected on port 49674
+2016-04-17 16:53:44,527 - DEBUG - Setting value of speed_print to 3 on profile Current settings
+2016-04-17 16:53:44,678 - DEBUG - Setting value of speed_print to 30 on profile Current settings
+2016-04-17 16:53:45,212 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:45,212 - DEBUG - Killing engine process
+2016-04-17 16:53:45,214 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:53:45,900 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:53:46,006 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:46,021 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:53:46,028 - DEBUG - Backend connected on port 49674
+2016-04-17 16:53:47,564 - DEBUG - Setting value of speed_print to 3 on profile Current settings
+2016-04-17 16:53:47,724 - DEBUG - Setting value of speed_print to NaN on profile Current settings
+2016-04-17 16:53:47,888 - DEBUG - Setting value of speed_print to 40 on profile Current settings
+2016-04-17 16:53:48,414 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:48,414 - DEBUG - Killing engine process
+2016-04-17 16:53:48,415 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:53:49,290 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:53:49,395 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:49,411 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:53:49,412 - DEBUG - Setting value of speed_print to 4 on profile Current settings
+2016-04-17 16:53:49,466 - DEBUG - Backend connected on port 49674
+2016-04-17 16:53:49,530 - DEBUG - Setting value of speed_print to NaN on profile Current settings
+2016-04-17 16:53:49,942 - DEBUG - Setting value of speed_print to 3 on profile Current settings
+2016-04-17 16:53:50,214 - DEBUG - Setting value of speed_print to 35 on profile Current settings
+2016-04-17 16:53:54,641 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:54,641 - DEBUG - Killing engine process
+2016-04-17 16:53:54,643 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:53:55,188 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:53:55,292 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:53:55,308 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:53:55,314 - DEBUG - Backend connected on port 49674
+2016-04-17 16:54:03,797 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:54:25,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:54:32,298 - DEBUG - Setting value of wall_thickness to 1.5 on profile Current settings
+2016-04-17 16:54:32,786 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:54:32,787 - DEBUG - Killing engine process
+2016-04-17 16:54:32,788 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:54:33,465 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:54:33,571 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:54:33,588 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:54:33,602 - DEBUG - Backend connected on port 49674
+2016-04-17 16:54:50,858 - DEBUG - Setting value of top_bottom_thickness to 1.5 on profile Current settings
+2016-04-17 16:54:51,353 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:54:51,353 - DEBUG - Killing engine process
+2016-04-17 16:54:51,354 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:54:51,909 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:54:52,015 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:54:52,032 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:54:52,040 - DEBUG - Backend connected on port 49674
+2016-04-17 16:55:00,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:55:19,083 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:55:19,084 - DEBUG - Killing engine process
+2016-04-17 16:55:19,085 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:55:20,223 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:55:20,328 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:55:20,343 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:55:20,724 - DEBUG - Backend connected on port 49674
+2016-04-17 16:55:21,314 - DEBUG - Setting value of infill_pattern to lines on profile Current settings
+2016-04-17 16:55:21,793 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:55:21,794 - DEBUG - Killing engine process
+2016-04-17 16:55:21,795 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:55:22,722 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:55:22,826 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:55:22,842 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:55:22,849 - DEBUG - Backend connected on port 49674
+2016-04-17 16:55:31,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:56:14,261 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:56:14,261 - DEBUG - Killing engine process
+2016-04-17 16:56:14,262 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:56:15,072 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:56:15,177 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:56:15,193 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:56:15,199 - DEBUG - Backend connected on port 49674
+2016-04-17 16:56:23,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:56:29,039 - DEBUG - Calculating normals took 0.0006728172302246094 seconds
+2016-04-17 16:56:29,039 - DEBUG - Loaded a mesh with 6702 vertices
+2016-04-17 16:56:29,046 - DEBUG - Loading mesh took 0.14330720901489258 seconds
+2016-04-17 16:56:29,761 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:56:29,762 - DEBUG - Killing engine process
+2016-04-17 16:56:29,762 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:56:30,516 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:56:30,620 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:56:30,652 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:56:30,660 - DEBUG - Backend connected on port 49674
+2016-04-17 16:56:31,212 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:56:31,212 - DEBUG - Sending data to engine is completed
+2016-04-17 16:56:32,440 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:56:32,458 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:56:32,467 - DEBUG - Backend connected on port 49674
+2016-04-17 16:56:41,276 - DEBUG - Writing to /Volumes/DATOS/PR_pinza0.gcode
+2016-04-17 16:56:48,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:57:33,651 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:57:33,652 - DEBUG - Sending data to engine is completed
+2016-04-17 16:57:34,779 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:57:34,797 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:57:34,803 - DEBUG - Backend connected on port 49674
+2016-04-17 16:57:51,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:58:03,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:58:18,719 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:58:27,195 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:58:27,195 - DEBUG - Sending data to engine is completed
+2016-04-17 16:58:28,344 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:58:28,362 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:58:28,368 - DEBUG - Backend connected on port 49674
+2016-04-17 16:58:28,441 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:58:28,442 - DEBUG - Sending data to engine is completed
+2016-04-17 16:58:29,235 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:58:29,235 - DEBUG - Killing engine process
+2016-04-17 16:58:29,236 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:58:30,128 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:58:30,233 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:58:30,248 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:58:30,254 - DEBUG - Backend connected on port 49674
+2016-04-17 16:58:30,765 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:58:30,765 - DEBUG - Sending data to engine is completed
+2016-04-17 16:58:32,063 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:58:32,090 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:58:32,098 - DEBUG - Backend connected on port 49674
+2016-04-17 16:58:33,837 - DEBUG - Setting active view to LayerView
+2016-04-17 16:58:38,724 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:58:57,453 - DEBUG - Calculating normals took 0.0052700042724609375 seconds
+2016-04-17 16:58:57,453 - DEBUG - Loaded a mesh with 65304 vertices
+2016-04-17 16:58:57,498 - DEBUG - Loading mesh took 0.498593807220459 seconds
+2016-04-17 16:58:59,512 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:58:59,514 - DEBUG - Sending data to engine is completed
+2016-04-17 16:59:00,354 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:00,355 - DEBUG - Killing engine process
+2016-04-17 16:59:00,359 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:59:00,951 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:59:01,055 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:01,073 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:01,082 - DEBUG - Backend connected on port 49674
+2016-04-17 16:59:01,634 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:59:01,634 - DEBUG - Sending data to engine is completed
+2016-04-17 16:59:02,889 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:59:02,913 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:02,928 - DEBUG - Backend connected on port 49674
+2016-04-17 16:59:07,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:59:09,743 - DEBUG - Calculating normals took 0.004794120788574219 seconds
+2016-04-17 16:59:09,743 - DEBUG - Loaded a mesh with 65304 vertices
+2016-04-17 16:59:09,775 - DEBUG - Loading mesh took 0.4084439277648926 seconds
+2016-04-17 16:59:10,656 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:10,656 - DEBUG - Killing engine process
+2016-04-17 16:59:10,658 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:59:11,197 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:59:11,302 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:11,321 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:11,328 - DEBUG - Backend connected on port 49674
+2016-04-17 16:59:11,829 - DEBUG - Sending data to engine for slicing.
+2016-04-17 16:59:11,830 - DEBUG - Sending data to engine is completed
+2016-04-17 16:59:19,711 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 16:59:24,088 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 16:59:24,111 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:24,123 - DEBUG - Backend connected on port 49674
+2016-04-17 16:59:51,473 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:51,473 - DEBUG - Killing engine process
+2016-04-17 16:59:51,474 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:59:51,998 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:52,461 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:59:52,567 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:52,593 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:52,633 - DEBUG - Backend connected on port 49674
+2016-04-17 16:59:54,266 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:54,267 - DEBUG - Killing engine process
+2016-04-17 16:59:54,268 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:59:54,875 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:59:55,036 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:55,223 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:55,355 - DEBUG - Backend connected on port 49674
+2016-04-17 16:59:57,191 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:57,192 - DEBUG - Killing engine process
+2016-04-17 16:59:57,193 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 16:59:57,730 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 16:59:57,838 - DEBUG - Attempting to kill the engine process
+2016-04-17 16:59:57,877 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 16:59:57,891 - DEBUG - Backend connected on port 49674
+2016-04-17 17:00:01,605 - DEBUG - Setting active view to SolidView
+2016-04-17 17:00:10,560 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:00:10,561 - DEBUG - Killing engine process
+2016-04-17 17:00:10,562 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:00:11,190 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:00:11,294 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:00:11,334 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:00:11,365 - DEBUG - Backend connected on port 49674
+2016-04-17 17:00:13,024 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:00:13,024 - DEBUG - Sending data to engine is completed
+2016-04-17 17:00:15,335 - DEBUG - Setting active view to LayerView
+2016-04-17 17:00:25,664 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 17:00:25,701 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:00:25,717 - DEBUG - Backend connected on port 49674
+2016-04-17 17:00:54,700 - DEBUG - Setting value of infill_pattern to lines on profile Current settings
+2016-04-17 17:00:55,426 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:00:55,429 - DEBUG - Sending data to engine is completed
+2016-04-17 17:01:04,728 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:01:08,565 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 17:01:08,616 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:01:08,645 - DEBUG - Backend connected on port 49674
+2016-04-17 17:01:14,360 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:01:14,361 - DEBUG - Sending data to engine is completed
+2016-04-17 17:01:23,730 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:01:28,047 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 17:01:28,105 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:01:28,131 - DEBUG - Backend connected on port 49674
+2016-04-17 17:02:06,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:02:29,718 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:02:40,432 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:02:40,432 - DEBUG - Sending data to engine is completed
+2016-04-17 17:02:42,209 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:02:42,209 - DEBUG - Killing engine process
+2016-04-17 17:02:42,213 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:02:42,846 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:02:42,952 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:02:43,004 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:02:43,011 - DEBUG - Backend connected on port 49674
+2016-04-17 17:02:43,569 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:02:43,569 - DEBUG - Sending data to engine is completed
+2016-04-17 17:02:44,458 - DEBUG - Setting active view to SolidView
+2016-04-17 17:02:51,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:02:56,468 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 17:02:56,518 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:02:56,527 - DEBUG - Backend connected on port 49674
+2016-04-17 17:02:58,073 - DEBUG - Setting value of speed_wall to 30 on profile Current settings
+2016-04-17 17:02:58,656 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:02:58,656 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:04,015 - DEBUG - Setting value of speed_topbottom to 3 on profile Current settings
+2016-04-17 17:03:04,175 - DEBUG - Setting value of speed_topbottom to 30 on profile Current settings
+2016-04-17 17:03:04,882 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:04,882 - DEBUG - Killing engine process
+2016-04-17 17:03:04,887 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:03:05,842 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:03:05,946 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:05,996 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:06,007 - DEBUG - Backend connected on port 49674
+2016-04-17 17:03:06,565 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:03:06,565 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:13,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:03:15,670 - DEBUG - Setting value of speed_topbottom to 3 on profile Current settings
+2016-04-17 17:03:15,792 - DEBUG - Setting value of speed_topbottom to 35 on profile Current settings
+2016-04-17 17:03:16,269 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:16,269 - DEBUG - Killing engine process
+2016-04-17 17:03:16,277 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:03:16,809 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:03:16,914 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:16,963 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:16,970 - DEBUG - Backend connected on port 49674
+2016-04-17 17:03:17,129 - DEBUG - Setting value of speed_wall to 3 on profile Current settings
+2016-04-17 17:03:17,250 - DEBUG - Setting value of speed_wall to 35 on profile Current settings
+2016-04-17 17:03:17,769 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:03:17,769 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:25,352 - DEBUG - Setting value of speed_print to 45 on profile Current settings
+2016-04-17 17:03:25,882 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:25,882 - DEBUG - Killing engine process
+2016-04-17 17:03:25,892 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:03:26,768 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:03:26,873 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:26,922 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:26,945 - DEBUG - Backend connected on port 49674
+2016-04-17 17:03:27,454 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:03:27,455 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:28,292 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:28,293 - DEBUG - Killing engine process
+2016-04-17 17:03:28,300 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:03:29,189 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:03:29,294 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:29,344 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:29,357 - DEBUG - Backend connected on port 49674
+2016-04-17 17:03:29,856 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:03:29,857 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:33,906 - DEBUG - Setting value of speed_wall to 3 on profile Current settings
+2016-04-17 17:03:34,202 - DEBUG - Setting value of speed_wall to 30 on profile Current settings
+2016-04-17 17:03:34,731 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:34,731 - DEBUG - Killing engine process
+2016-04-17 17:03:34,736 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:03:35,632 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:03:35,736 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:35,786 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:35,792 - DEBUG - Backend connected on port 49674
+2016-04-17 17:03:36,303 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:03:36,303 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:37,605 - DEBUG - Setting value of speed_topbottom to 3 on profile Current settings
+2016-04-17 17:03:37,833 - DEBUG - Setting value of speed_topbottom to 35 on profile Current settings
+2016-04-17 17:03:38,309 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:38,309 - DEBUG - Killing engine process
+2016-04-17 17:03:38,313 - DEBUG - Engine process is killed. Recieved return code -15
+2016-04-17 17:03:39,057 - INFO - Backend crashed or closed. Restarting...
+2016-04-17 17:03:39,162 - DEBUG - Attempting to kill the engine process
+2016-04-17 17:03:39,211 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:39,224 - DEBUG - Backend connected on port 49674
+2016-04-17 17:03:39,745 - DEBUG - Sending data to engine for slicing.
+2016-04-17 17:03:39,749 - DEBUG - Sending data to engine is completed
+2016-04-17 17:03:47,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:03:52,370 - DEBUG - Backend quit with return code 0. Resetting process and socket.
+2016-04-17 17:03:52,419 - INFO - Started engine process: /Applications/Cura.app/Contents/MacOS/CuraEngine
+2016-04-17 17:03:52,425 - DEBUG - Backend connected on port 49674
+2016-04-17 17:04:16,710 - DEBUG - Autosaving preferences, instances and profiles
+2016-04-17 17:04:31,154 - DEBUG - Shutting down cura
+2016-04-17 17:04:31,161 - ERROR - Exception while emitting shutdown signal: NotImplementedError('Stop should be implemented by subclasses',)

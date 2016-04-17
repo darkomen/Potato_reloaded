@@ -1,0 +1,44 @@
+[general]
+version = 1
+name = Current settings
+weight = 0
+type = machine_instance_profile
+
+[settings]
+infill_pattern = lines
+material_print_temperature = 220
+material_bed_temperature = 100
+retraction_amount = 4
+speed_topbottom = 35
+speed_wall = 30
+speed_print = 45
+wall_thickness = 1.5
+layer_height = 0.25
+material_flow = 100
+support_enable = False
+top_bottom_thickness = 1.5
+top_bottom_pattern = lines
+machine_nozzle_size = 0.5
+retraction_speed = 40
+infill_sparse_density = 15
+
+[defaults]
+infill_pattern = lines
+material_print_temperature = 220
+material_bed_temperature = 100
+retraction_amount = 4
+speed_print = 35
+line_width = 0.5
+wall_thickness = 1.5
+layer_height = 0.25
+material_flow = 100
+support_enable = False
+top_bottom_thickness = 1.5
+top_bottom_pattern = lines
+machine_nozzle_size = 0.5
+retraction_speed = 40
+infill_sparse_density = 15
+
+[disabled_defaults]
+values = infill_pattern,line_width,
+
