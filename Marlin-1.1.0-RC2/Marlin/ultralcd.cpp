@@ -218,7 +218,7 @@ static void lcd_status_screen();
   #if ENABLED(REPRAPWORLD_KEYPAD)
     volatile uint8_t buttons_reprapworld_keypad; // to store the keypad shift register values
   #endif
-    
+
   #if ENABLED(LCD_HAS_SLOW_BUTTONS)
     volatile uint8_t slow_buttons; // Bits of the pressed buttons.
   #endif
@@ -1184,7 +1184,12 @@ static void lcd_control_motion_menu() {
   #endif
   END_MENU();
 }
-
+void Load_unload(){
+    PSTR("G91");
+    PSTR("M109 S190");
+    PSTR("G1 E-120 F200");
+    PSTR("G1 E120 F200 ");
+}
 /**
  *
  * "Control" > "Filament" submenu
@@ -1193,6 +1198,10 @@ static void lcd_control_motion_menu() {
 static void lcd_control_volumetric_menu() {
   START_MENU();
   MENU_ITEM(back, MSG_CONTROL, lcd_control_menu);
+  MENU_ITEM(function, MSG_PREHEAT_PLA, lcd_preheat_pla0);
+  MENU_ITEM(gcode, MSG_ABSOLUT, PSTR("G91"));
+  MENU_ITEM(gcode, MSG_FILAMENTUNLOAD, PSTR("G1 E-100 F200"));
+  MENU_ITEM(gcode, MSG_FILAMENTLOAD, PSTR("G1 E+100 F200"));
 
   MENU_ITEM_EDIT_CALLBACK(bool, MSG_VOLUMETRIC_ENABLED, &volumetric_enabled, calculate_volumetric_multipliers);
 
@@ -1433,14 +1442,14 @@ menu_edit_type(unsigned long, long5, ftostr5, 0.01)
 void lcd_quick_feedback() {
   lcdDrawUpdate = 2;
   next_button_update_ms = millis() + 500;
-    
+
   #if ENABLED(LCD_USE_I2C_BUZZER)
     #ifndef LCD_FEEDBACK_FREQUENCY_HZ
       #define LCD_FEEDBACK_FREQUENCY_HZ 100
     #endif
     #ifndef LCD_FEEDBACK_FREQUENCY_DURATION_MS
       #define LCD_FEEDBACK_FREQUENCY_DURATION_MS (1000/6)
-    #endif    
+    #endif
     lcd.buzz(LCD_FEEDBACK_FREQUENCY_DURATION_MS, LCD_FEEDBACK_FREQUENCY_HZ);
   #elif PIN_EXISTS(BEEPER)
     #ifndef LCD_FEEDBACK_FREQUENCY_HZ
@@ -1614,7 +1623,7 @@ void lcd_update() {
     }
 
   #endif //SDSUPPORT && SD_DETECT_PIN
-  
+
   millis_t ms = millis();
   if (ms > next_lcd_update_ms) {
 
@@ -1641,7 +1650,7 @@ void lcd_update() {
               int32_t encoderMovementSteps = abs(encoderDiff) / ENCODER_PULSES_PER_STEP;
 
               if (lastEncoderMovementMillis != 0) {
-                // Note that the rate is always calculated between to passes through the 
+                // Note that the rate is always calculated between to passes through the
                 // loop and that the abs of the encoderDiff value is tracked.
                 float encoderStepRate = (float)(encoderMovementSteps) / ((float)(ms - lastEncoderMovementMillis)) * 1000.0;
 
@@ -1967,7 +1976,7 @@ char *ftostr43(const float &x) {
 // Convert float to string with 1.23 format
 char *ftostr12ns(const float &x) {
   long xx=x*100;
-  
+
   xx=abs(xx);
   conv[0]=(xx/100)%10+'0';
   conv[1]='.';

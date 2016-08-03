@@ -39,6 +39,15 @@
 #ifndef MSG_AUTO_HOME
 #define MSG_AUTO_HOME                       "Auto home"
 #endif
+#ifndef MSG_LOAD_FILAMENT
+#define MSG_LOAD_FILAMENT                       "Load filament"
+#endif
+#ifndef MSG_UNLOAD_FILAMENT
+#define MSG_UNLOAD_FILAMENT                       "Unload filament"
+#endif
+#ifndef MSG_FEED_FILAMENT
+#define MSG_FEED_FILAMENT                       "Feed filament"
+#endif
 #ifndef MSG_SET_HOME_OFFSETS
 #define MSG_SET_HOME_OFFSETS                "Set home offsets"
 #endif
@@ -380,6 +389,15 @@
 #endif
 #ifndef MSG_FILAMENTCHANGE
 #define MSG_FILAMENTCHANGE                  "Change filament"
+#endif
+#ifndef MSG_FILAMENTLOAD
+#define MSG_FILAMENTLOAD                  "Load filament"
+#endif
+#ifndef MSG_ABSOLUT
+#define MSG_ABSOLUT                  "Absolute distance"
+#endif
+#ifndef MSG_FILAMENTUNLOAD
+#define MSG_FILAMENTUNLOAD                  "Unload filament"
 #endif
 #ifndef MSG_INIT_SDCARD
 #define MSG_INIT_SDCARD                     "Init. SD card"
