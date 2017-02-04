@@ -6,7 +6,7 @@
 // #error "You must specify the following parameters related to your distribution"
 
 #if true
-#define SHORT_BUILD_VERSION "1.1.0-RC2.6"
+#define SHORT_BUILD_VERSION "1.1.0-RC2.10"
 #define DETAILED_BUILD_VERSION "1.1.0-RC2.6 From Archive"
 #define STRING_DISTRIBUTION_DATE "2015-09-28 12:00"
 // It might also be appropriate to define a location where additional information can be found

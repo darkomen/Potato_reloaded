@@ -1,4 +1,4 @@
-#ifndef CONFIGURATION_H
+  #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
 #include "boards.h"
@@ -583,13 +583,13 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
  * MOVEMENT SETTINGS
  */
 
-#define HOMING_FEEDRATE {50*60, 50*60, 6*60, 0}  // set the homing speeds (mm/min)
+#define HOMING_FEEDRATE {60*60, 60*60, 50*60, 0}  // set the homing speeds (mm/min)
 
 // default settings
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,8000,1749}  // default steps per unit for Ultimaker
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,800,834}  // default steps per unit for Ultimaker
-#define DEFAULT_MAX_FEEDRATE          {250, 250, 3.3, 25}    // (mm/sec)
+#define DEFAULT_MAX_FEEDRATE          {250, 250, 3, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {1000,1000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
 #define DEFAULT_ACCELERATION          1000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
